@@ -1,0 +1,13 @@
+{
+  "name": "stockflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node scripts/local.mjs",
+    "dev": "node scripts/local.mjs --demo",
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": { "esbuild": "0.25.12" }
+}
